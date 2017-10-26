@@ -2,7 +2,12 @@
 [
     {
         "key": "ctrl+`",
-        "command": "editor.action.addSelectionToNextFindMatch",
-        "when": "editorFocus"
+        "command": "editor.action.smartSelect.grow",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "shift+alt+right",
+        "command": "-editor.action.smartSelect.grow",
+        "when": "editorTextFocus"
     }
 ]
